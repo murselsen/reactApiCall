@@ -9,7 +9,7 @@ const appMode = process.env.NODE_ENV; // Development or Production
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  root: "src",
+
   //uygulama yolu
   base: appMode === "development" ? "/" : `/${appName}/`,
   build: {

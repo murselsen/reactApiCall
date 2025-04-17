@@ -1,0 +1,20 @@
+.SearchHeader {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.SearchHeaderForm {
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+.SearchHeaderForm .SearchHeaderForm__input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+
+}
